@@ -17,7 +17,7 @@ npm start
 ```
 For integrating with backend make sure you have xampp installed on your local system
 
-Link for installing xampp:https://www.apachefriends.org/download.html 
+Link for installing xampp: https://www.apachefriends.org/download.html 
 
 and after the successful run start your apache server and add the files reactbackend in your htdocs folder
 
