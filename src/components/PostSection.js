@@ -4,7 +4,7 @@ const PostSection = (props) => {
   const [Input, setInput] = useState("");
   const onAddHandler = (event) => {
     event.preventDefault();
-    const path = "http://localhost:80/react-backend/";
+    const path = "http://localhost:80/reactbackend/";
     if (Input !== "") {
       axios
         .post(path, {
