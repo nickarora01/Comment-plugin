@@ -1,0 +1,77 @@
+body,html{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+*{
+box-sizing: border-box;
+font-family:'Signika Negative', sans-serif;;
+}
+.fa-thumbs-up{
+    color:grey;
+    margin-top:20px;
+}
+.fa-comment-alt{
+    color:grey;
+    margin-top:20px;
+}
+.comment-content{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+}
+#input-box{
+  border-radius: 30px;
+  width:100%;
+  height:50px;
+  margin-top:100px;
+}
+#input-box:focus{
+    outline: none;
+}
+.report-header{
+    display:flex;
+    gap:10rem;
+    justify-content: center;
+}
+.report-header button{
+  border:0;
+  background-color: gold;
+  color:black;
+  outline:0;
+  font-size:19px;
+  border-radius:70px;
+  width:8rem;
+  height:3rem;
+  cursor:pointer;
+}
+.com-link:hover{
+ background-color: rgb(167, 167, 167);
+ border-radius:10px;
+}
+.read-community{
+    border:3px solid black;
+    border-radius: 40px;
+    text-align: center;
+}
+.fa-long-arrow-alt-right{
+    background-color:rgb(167, 167, 167);
+    border-radius:80%;
+    width:6rem;
+}
+/* .comment-content{
+ background-color: burlywood;
+ gap:10rem;
+} */
+/* .comment-content:hover {
+    border:4px solid rgb(122, 180, 245);
+    border-radius:20px;
+}
+.fa-comment-alt{
+  background-color:#fff;
+  border-radius:50%;
+}
+.fa-thumbs-up{
+  background-color:#fff;
+  border-radius:50%;
+} */
